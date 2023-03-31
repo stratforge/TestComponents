@@ -1,6 +1,6 @@
 {
 	"name": "sftestcomp",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"private": true,
 	"description": "",
 	"repository": {
@@ -25,6 +25,7 @@
 		"lint": "eslint . --ext .ts,.tsx,.js,.jsx",
 		"prepare": "husky install",
 		"release": "changeset publish",
+		"publish-package": "changeset version && changeset publish",
 		"storybook": "start-storybook -p 6006 --quiet",
 		"test": "NODE_ENV=test jest",
 		"test:coverage": "NODE_ENV=test jest --coverage",
