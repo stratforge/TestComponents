@@ -1,5 +1,11 @@
 # sftestcomp
 
+## 2.3.0
+
+### Minor Changes
+
+- 2b2a933: test2
+
 ## 2.2.0
 
 ### Minor Changes
