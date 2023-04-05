@@ -1,0 +1,5 @@
+---
+'sftestcomp': minor
+---
+
+tester
