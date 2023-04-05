@@ -1,4 +1,5 @@
 import { css } from '@emotion/react';
+import tw from 'twin.macro';
 import { rgba } from '@src/utils/rgba';
 import {
 	ERROR,
@@ -30,14 +31,7 @@ export function getTheme(color: Color, variant: Variant) {
 	const colorScheme = getColorScheme(color);
 	switch (variant) {
 		case 'outline':
-			return css`
-				color: ${colorScheme};
-				background-color: transparent;
-				border: 1px solid ${colorScheme};
-				&:hover {
-					background-color: ${rgba(colorScheme, 0.05)};
-				}
-			`;
+			return tw`rounded bg-indigo-50 px-2 py-1 text-xs font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100`;
 		case 'text':
 			return css`
 				color: ${colorScheme};

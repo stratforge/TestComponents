@@ -8,5 +8,10 @@ module.exports = {
 			},
 		],
 	],
-	plugins: ['@emotion', '@babel/plugin-transform-runtime'],
+	plugins: [
+		'@emotion',
+		'@babel/plugin-transform-runtime',
+		'babel-plugin-twin',
+		'babel-plugin-macros',
+	],
 };
