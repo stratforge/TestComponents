@@ -1,5 +1,12 @@
 # sftestcomp
 
+## 2.1.0
+
+### Minor Changes
+
+- tw update
+- update tw
+
 ## 2.0.0
 
 ### Major Changes
