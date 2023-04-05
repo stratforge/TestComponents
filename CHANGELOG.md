@@ -1,5 +1,15 @@
 # sftestcomp
 
+## 2.0.0
+
+### Major Changes
+
+- Initial release
+
+### Minor Changes
+
+- Release
+
 ## 1.0.0
 
 ### Major Changes
