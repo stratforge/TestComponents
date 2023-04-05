@@ -1,5 +1,11 @@
 # sftestcomp
 
+## 2.2.0
+
+### Minor Changes
+
+- ec4d2c9: tester
+
 ## 2.1.0
 
 ### Minor Changes
