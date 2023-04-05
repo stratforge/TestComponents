@@ -1,5 +1,11 @@
 # sftestcomp
 
+## 2.4.0
+
+### Minor Changes
+
+- 2baba8a: test3
+
 ## 2.3.0
 
 ### Minor Changes

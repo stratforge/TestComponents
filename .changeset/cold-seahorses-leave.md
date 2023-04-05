@@ -2,4 +2,4 @@
 'sftestcomp': minor
 ---
 
-test3
+test4
