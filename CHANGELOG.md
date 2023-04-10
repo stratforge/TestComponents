@@ -1,5 +1,17 @@
 # sftestcomp
 
+## 2.6.0
+
+### Minor Changes
+
+- test5
+
+## 2.5.0
+
+### Minor Changes
+
+- 185ac31: test4
+
 ## 2.4.0
 
 ### Minor Changes
