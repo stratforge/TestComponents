@@ -1,4 +1,3 @@
-import '@src/reset.css';
 import { forwardRef } from 'react';
 import { classNames } from '@src/utils/classNames';
 import * as Sc from './Button.styled';
