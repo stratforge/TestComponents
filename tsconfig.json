@@ -5,7 +5,7 @@
 			"@src/*": ["src/*"]
 		},
 		"target": "es6",
-		"module": "commonjs",
+		"module": "esnext",
 		"moduleResolution": "node",
 		"jsx": "react-jsx",
 		"sourceMap": true,
