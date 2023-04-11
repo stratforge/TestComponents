@@ -1,5 +1,11 @@
 # sftestcomp
 
+## 4.0.0
+
+### Major Changes
+
+- test
+
 ## 3.1.0
 
 ### Minor Changes
