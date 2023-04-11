@@ -4,7 +4,8 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:react/recommended',
 		'plugin:jsx-a11y/recommended',
-		'plugin:prettier/recommended',
+		// 'plugin:prettier/recommended',
+		'plugin:storybook/recommended',
 	],
 	plugins: ['react-hooks', 'testing-library'],
 	env: {
@@ -53,7 +54,7 @@ module.exports = {
 		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'warn',
 		'jsx-a11y/no-noninteractive-element-to-interactive-role': 'warn',
-		'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
+		// 'no-mixed-spaces-and-tabs': ['error', 'smart-tabs'],
 		'@typescript-eslint/no-explicit-any': 'off',
 		'@typescript-eslint/ban-ts-comment': 'off',
 	},

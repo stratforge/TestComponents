@@ -1,19 +1,19 @@
 import { action } from '@storybook/addon-actions';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { StoryFn, StoryObj } from '@storybook/react';
 import { Button } from '../index';
 
 // https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
 	title: 'Components/Button',
 	component: Button,
-} as ComponentMeta<typeof Button>;
+} as StoryObj<typeof Button>;
 
 /**
  * Component Template
  *
  * @see https://storybook.js.org/docs/react/writing-stories/introduction#using-args
  */
-const Template: ComponentStory<typeof Button> = (args) => {
+const Template: StoryFn<typeof Button> = (args) => {
 	return (
 		<>
 			<Button {...args} />

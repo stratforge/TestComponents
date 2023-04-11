@@ -1,14 +1,13 @@
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { StoryFn, StoryObj } from '@storybook/react';
+import React from 'react';
 import { Container } from '../index';
 
 export default {
 	title: 'Components/Container',
 	component: Container,
-} as ComponentMeta<typeof Container>;
+} as StoryObj<typeof Container>;
 
-const Template: ComponentStory<typeof Container> = (args) => (
-	<Container {...args} />
-);
+const Template: StoryFn<typeof Container> = (args) => <Container {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {

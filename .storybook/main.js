@@ -1,9 +1,5 @@
 const path = require('path');
-
 module.exports = {
-	core: {
-		builder: 'webpack5',
-	},
 	webpackFinal: async (config) => {
 		config.stats = 'errors-only';
 		config.resolve.alias = {
@@ -13,7 +9,10 @@ module.exports = {
 		config.resolve.modules.push('src');
 		return config;
 	},
-	framework: '@storybook/react',
+	framework: {
+		name: '@storybook/react-webpack5',
+		options: {},
+	},
 	stories: [
 		'../src/**/*.stories.@(js|jsx|ts|tsx|mdx)',
 		'./**/__stories__/*.stories.@(js|jsx|ts|tsx|mdx)',
@@ -28,4 +27,7 @@ module.exports = {
 	},
 	// https://storybook.js.org/docs/react/configure/images-and-assets#serving-static-files-via-storybook-configuration
 	// staticDirs: ['./public'],
+	docs: {
+		autodocs: true,
+	},
 };
