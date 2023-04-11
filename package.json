@@ -114,6 +114,8 @@
 		"rollup-plugin-peer-deps-external": "^2.2.4",
 		"rollup-plugin-typescript2": "^0.34.1",
 		"storybook": "^7.0.2",
+		"storybook-addon-themes": "^6.1.0",
+		"storybook-dark-mode": "^3.0.0",
 		"tailwindcss": "^3.3.1",
 		"ts-jest": "^29.0.4",
 		"tslib": "^2.4.1",
@@ -135,6 +137,7 @@
 	},
 	"babelMacros": {
 		"twin": {
+			"config": "tailwind.config.js",
 			"preset": "emotion"
 		}
 	}

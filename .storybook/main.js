@@ -21,6 +21,8 @@ module.exports = {
 		'@storybook/addon-links',
 		'@storybook/addon-essentials',
 		'@storybook/addon-a11y',
+		'storybook-addon-themes',
+		'storybook-dark-mode',
 	],
 	features: {
 		storyStoreV7: false,
@@ -29,5 +31,22 @@ module.exports = {
 	// staticDirs: ['./public'],
 	docs: {
 		autodocs: true,
+	},
+	themes: {
+		clearable: false,
+		list: [
+			{
+				name: 'Light',
+				class: [],
+				color: '#ffffff',
+				default: true,
+			},
+			{
+				name: 'Dark',
+				// The class dark will be added to the body tag
+				class: ['dark'],
+				color: '#000000',
+			},
+		],
 	},
 };

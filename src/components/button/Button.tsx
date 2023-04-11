@@ -1,3 +1,4 @@
+import '@src/reset.css';
 import { forwardRef } from 'react';
 import { classNames } from '@src/utils/classNames';
 import * as Sc from './Button.styled';
@@ -36,17 +37,20 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 		ref,
 	) => {
 		return (
-			<Sc.Button
-				ref={ref}
-				id={id}
-				variant={variant}
-				$color={color}
-				className={classNames('button-root', className)}
-				onClick={onClick}
-				{...rest}
-			>
-				{children}
-			</Sc.Button>
+			<>
+				{/* <GlobalStyles /> */}
+				<Sc.Button
+					ref={ref}
+					id={id}
+					variant={variant}
+					$color={color}
+					className={classNames('button-root', className)}
+					onClick={onClick}
+					{...rest}
+				>
+					{children}
+				</Sc.Button>
+			</>
 		);
 	},
 );
