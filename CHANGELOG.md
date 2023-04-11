@@ -1,5 +1,17 @@
 # sftestcomp
 
+## 3.0.0
+
+### Major Changes
+
+- update storybook
+
+## 2.7.0
+
+### Minor Changes
+
+- update storybook
+
 ## 2.6.0
 
 ### Minor Changes

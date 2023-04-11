@@ -31,11 +31,11 @@ export function getTheme(color: Color, variant: Variant) {
 	// const colorScheme = getColorScheme(color);
 	switch (variant) {
 		case 'outline':
-			return tw`rounded bg-indigo-50 dark:bg-indigo-800 px-2 py-1 text-xs font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100`;
+			return tw`rounded bg-indigo-50 dark:bg-green-800 px-2 py-1 text-xs font-semibold text-indigo-600 dark:text-green-100 shadow-sm hover:bg-indigo-100`;
 		case 'text':
-			return tw`rounded bg-indigo-50 dark:bg-indigo-800 px-2 py-1 text-xs font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100`;
+			return tw`rounded bg-indigo-50 dark:bg-green-800 px-2 py-1 text-xs font-semibold text-indigo-600 dark:text-green-100 shadow-sm hover:bg-indigo-100`;
 		case 'solid':
 		default:
-			return tw`rounded bg-indigo-50 dark:bg-indigo-800 px-2 py-1 text-xs font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100`;
+			return tw`rounded bg-indigo-50 dark:bg-green-800 px-2 py-1 text-xs font-semibold text-indigo-600 dark:text-green-100 shadow-sm hover:bg-indigo-100`;
 	}
 }
