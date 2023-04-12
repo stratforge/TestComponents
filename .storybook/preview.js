@@ -8,6 +8,7 @@ export const parameters = {
 		lightClass: 'light',
 		classTarget: 'html',
 		stylePreview: true,
+		dark: { ...themes.dark, appBg: '#222425' },
 	},
 	viewport: {
 		viewports: INITIAL_VIEWPORTS,
