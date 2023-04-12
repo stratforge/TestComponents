@@ -41,12 +41,12 @@ const theme: ITheme = {
 		primary: tw`ring-blue-300 hover:bg-blue-50`,
 	},
 	text: {
-		base: tw`rounded-md bg-transparent px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm dark:text-gray-100  ring-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800/20 `,
-		error: tw`dark:text-red-100  ring-red-300 hover:bg-red-50 dark:hover:bg-gray-800/20`,
-		success: tw`dark:text-green-100  ring-green-300 hover:bg-green-50 dark:hover:bg-gray-800/20`,
-		warn: tw`dark:text-yellow-100  ring-yellow-300 hover:bg-yellow-50 dark:hover:bg-gray-800/20`,
-		secondary: tw`dark:text-gray-100  ring-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800/20`,
-		primary: tw`dark:text-blue-100  ring-blue-300 hover:bg-blue-50 dark:hover:bg-gray-800/20`,
+		base: tw`rounded-md bg-transparent px-2.5 py-1.5 text-sm font-semibold text-gray-900 dark:text-gray-100  ring-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800/20 `,
+		error: tw`dark:text-red-400 text-red-600  ring-red-300 hover:bg-red-50 dark:hover:bg-red-800/20`,
+		success: tw`dark:text-green-300 text-green-600  ring-green-300 hover:bg-green-50 dark:hover:bg-green-800/20`,
+		warn: tw`dark:text-yellow-400 text-yellow-600  ring-yellow-300 hover:bg-yellow-50 dark:hover:bg-yellow-800/20`,
+		secondary: tw`dark:text-gray-400 text-gray-600  ring-gray-300 hover:bg-gray-200 dark:hover:bg-gray-800/20`,
+		primary: tw`dark:text-blue-400 text-blue-600  ring-blue-300 hover:bg-blue-50 dark:hover:bg-blue-800/20`,
 	},
 	solid: {
 		base: tw`rounded-md bg-indigo-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`,
