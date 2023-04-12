@@ -1,3 +1,4 @@
+import GlobalStyles from '@src/GlobalStyles';
 import { forwardRef } from 'react';
 import { classNames } from '@src/utils/classNames';
 import * as Sc from './Button.styled';
@@ -37,7 +38,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
 	) => {
 		return (
 			<>
-				{/* <GlobalStyles /> */}
+				{GlobalStyles}
 				<Sc.Button
 					ref={ref}
 					id={id}
